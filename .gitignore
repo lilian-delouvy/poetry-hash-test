@@ -1,6 +1,9 @@
 # package .whl files
 *.whl
 
+# IDE folder
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
