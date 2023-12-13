@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "consumer_package"
+version = "0.1.0"
+description = ""
+authors = ["lilian-delouvy <somemailaddress>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+my_local_package = { path = "./packages/my_local_package-0.1.0-py3-none-any.whl", develop = false }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
